@@ -626,7 +626,10 @@ namespace Zadanie_1
 
                             break;
                         case "7":
-                        InsertionSort(list);
+                        for(int i = 0; i < list.Count; i++)
+                        {
+                            InsertionSort(list);
+                        }
                         //Compare(list);
                         
                         
